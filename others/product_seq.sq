@@ -1,0 +1,1 @@
+create sequence product_pk cache 20;

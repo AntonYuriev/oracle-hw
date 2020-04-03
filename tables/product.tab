@@ -1,0 +1,13 @@
+create table product (
+  prd_id number(10) not null,
+  prd_name varchar2(255 char) not null,
+  prd_price number(8, 2) not null
+);
+
+alter table product add constraint product_pk primary key (prd_id);
+alter table product add constraint prd_price_ck check (prd_price >= 0);
+
+comment on table product is 'Продукты';
+comment on column product.prd_id is 'ID продукта';
+comment on column product.prd_name is 'Наименование продукта';
+comment on column product.prd_price is 'Стоимость продукта в рублях';
