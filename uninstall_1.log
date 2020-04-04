@@ -1,0 +1,29 @@
+______________________________
+
+Patch ver  DB User    Current Date         OS User         NLS Language    DB Name                                                                                                                      
+---------- ---------- -------------------- --------------- --------------- ---------------                                                                                                              
+1          A_YUREV_ST 04.04.2020 13:21:47  a.yurev         AMERICAN_CIS.AL qw                                                                                                                           
+           UDY                                             32UTF8                                                                                                                                       
+                                                                                                                                                                                                        
+
+______________________________
+================
+drop package test_product_api_pack
+
+Package dropped.
+
+drop package product_api_pack
+
+Package dropped.
+
+drop sequence product_pk
+
+Sequence dropped.
+
+drop table product
+
+Table dropped.
+
+================
+
+Patch was successfull uninstalled
