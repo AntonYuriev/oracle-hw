@@ -38,6 +38,11 @@ prompt >>>> packages/_packages.sql
 prompt 
 @packages/_packages.sql
 
+-- unit тесты
+prompt Run unit tests
+prompt 
+select * from table(ut.run('test_product_api_pack'));
+
 prompt ================
 prompt 
 prompt Patch was successfull installed

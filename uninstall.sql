@@ -18,6 +18,9 @@ whenever sqlerror continue
 prompt ================
 
 ---- удаляются объекты
+prompt drop package test_product_api_pack;
+drop package test_product_api_pack;
+
 prompt drop package product_api_pack;
 drop package product_api_pack;
 
