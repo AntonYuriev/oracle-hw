@@ -1,3 +1,7 @@
+# Логи наката и отката
+- install_1.log
+- uninstall_1.log
+
 # Test report
 ```
 shop
